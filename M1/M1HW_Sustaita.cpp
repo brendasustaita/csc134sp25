@@ -16,6 +16,7 @@ int main (){
     cout << "This movie is the fourth movie out of the collection." << endl;
     cout << "The movie has reoccurring movie characters that play the main roles like Daniel Radcliffe, Emma Watson, and Rupert Grint." << endl;
     cout << endl;
+    // added favorite scene
     cout << "This movie was known for the scene where Cedric Diggory, played by Robert Patterson, was killed by Voldemort in the Goblet of Fire tournament." << endl;
     cout << endl;
 
