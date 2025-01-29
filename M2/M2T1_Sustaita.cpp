@@ -13,7 +13,7 @@ int main()
     // Variables are like mailboxes
 
     string farm_name = "Sustaita"; //name of farm, whatever name i want
-    int num_apples = 99; //are whole numbers
+    int num_apples = 87; //are whole numbers
     double cost_each = 0.25; //twenty five cents
     // new variables for M2T1
     string user_name; //Who is buying the apples?
@@ -34,6 +34,8 @@ int main()
     // Find out the total price
     double total_cost = num_apples * cost_each;
     cout << "The price for all them is $" << total_cost << "." << endl;
+
+    return 0;
 
 
 }
