@@ -15,7 +15,7 @@ int main()
     double totalprice = (double) apples * cost_each;
     //print all info
     cout << "Welcome to " << name;
-    cout << "'s apple orchard!" << endl;
+    cout << "'s Apple Orchard!" << endl;
     cout << "We have " << apples;
     cout << " apples in stock." <<endl;
     cout << "Apples are currently $";
