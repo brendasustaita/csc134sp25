@@ -41,6 +41,9 @@ int main (){
   cout << endl;
   // finish up
   cout << "If you chose option 3, you're a smart peach!" << endl;
+  cout << endl;
+  cout << "Remember that a pound is a pound...they weigh the same." << endl;
+  cout << endl;
   cout << "Thanks for playing!" << endl; // this runs no matter what they choose
   cout << endl;
 
