@@ -18,6 +18,7 @@ int main (){
   cout << endl;
   // ask the question
   cout << "What's heavier? A pound of rocks or a pound of beans?" << endl;
+  cout << endl;
   cout << "Choose 1 for rocks, " << endl;
   cout << "Choose 2 for beans, " << endl;
   cout << "Choose 3 if you think they weigh the same." << endl;
@@ -35,10 +36,11 @@ int main (){
     cout <<"You chose they weigh the same." << endl;
   }
   else {
-  	cout << "If you chose option 3, you're a smart peach!" << endl;
+  	cout << "That wasn't an option." << endl;
   }
   cout << endl;
   // finish up
+  cout << "If you chose option 3, you're a smart peach!" << endl;
   cout << "Thanks for playing!" << endl; // this runs no matter what they choose
   cout << endl;
 
