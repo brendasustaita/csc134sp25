@@ -1,7 +1,7 @@
 // CSC 134
-// ASSIGNMENT
-// NAME
-// Date
+// M3T3 - Random Numbers
+// Brenda Sustaita
+// 02/24/2025
 
 #include <iostream>
 using namespace std;
