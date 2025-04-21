@@ -1,0 +1,44 @@
+// CSC 134
+// M3T3 - Random Numbers
+// Brenda Sustaita
+// 02/20/2025
+
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+int main ()
+{
+    int seed = time(0);
+    srand(seed);
+    cout << fixed << setprecision(2);
+
+    string name;
+    double balance, deposit, withdrawal;
+    int accountNum = rand() % 900000 + 100000;
+
+    cout << "Please enter your full name: ";
+    getline(cin, name);
+
+    cout << "Please enter your starting balance: $";
+    cin >> balance;
+
+    cout << "Please enter the amount of your deposit: $";
+    cin >> deposit;
+
+    cout << "Please enter the amount of your withdrawal: $";
+    cin >> withdrawal;
+
+    balance = balance + deposit - withdrawal;
+
+    cout << endl;
+    cout << "Name: " << name << endl;
+    cout << "Account Number: " << accountNum << endl;
+    cout << "Balance: $" << balance << endl;
+        
+    return 0;
+}
