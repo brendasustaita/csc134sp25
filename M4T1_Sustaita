@@ -1,1 +1,23 @@
+// CSC 134
+// M4T1_Part1 #5-3
+// Brenda Sustaita
+// 03/15/2025
 
+#include <iostream>
+#include <cstdlib>  // for rand() and srand()
+#include <ctime>    // for time()
+
+using namespace std;
+
+int main()
+{
+    int number = 0;
+
+    while (number < 8)
+        {
+            cout << "Hello\n";
+            number++;
+        }
+        cout << "That's all!\n";
+    return 0;
+}
