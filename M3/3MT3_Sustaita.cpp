@@ -13,14 +13,14 @@ using namespace std;
 int main ()
 {
     cout << "Let's roll some dice!" << endl;
-    int seed = time(0)
+    int seed = time(0);
     cout << "Your seed is: " << seed << endl;
     srand(seed);
 
-    for (int i = 1; i <= 10l; i++)
+    for (int i = 1; i <= 10; i++)
         {
             int d1 = rand() % 6 + 1;
-            int d2 = rand() % 6 + 1:
+            int d2 = rand() % 6 + 1;
             int sum = d1 + d2;
             
             cout<< "Roll" << i << ":" <<  d1 << " + " << d2 << " = " << sum << " -> ";
