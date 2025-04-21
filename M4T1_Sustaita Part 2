@@ -1,0 +1,25 @@
+// CSC 134
+// M4T1_Part1 #5-6
+// Brenda Sustaita
+// 03/15/2025
+
+#include <iostream>
+using namespace std;
+
+int main()
+{  
+    const int MIN_NUMBER = 1;
+    const int MAX_NUMBER = 10;
+
+    int number = MIN_NUMBER;
+
+    cout << "Number  Number Squared\n";
+    cout << "-------------------------\n";
+    
+    while (number <= MAX_NUMBER)
+        {
+            cout << number << "\t\t" << (number * number) << endl;
+            number++;
+        }
+    return 0;
+}
